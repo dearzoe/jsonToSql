@@ -5,7 +5,7 @@
 
 最后解决方案，使用node把json转成sql,然后再导入到表。
 
-```
+```javascript
 var fs = require('fs')
 // var format = require('string-format')
 // create write stream
