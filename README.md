@@ -3,6 +3,10 @@
 
 修改utf8,GBK都没能解决问题。
 
+|id| campaign_type|industry_shop_name|industry_shop_id|create_time|
+| ------------- |:-------------:|:-------------:|:-------------:| -----:|
+| 777      | 2 | 榨汁机 |50018218 |2017-01-02|
+
 最后解决方案，使用node把json转成sql,然后再导入到表。
 
 ```javascript
