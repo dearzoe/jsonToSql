@@ -5,7 +5,7 @@
 
 |id| campaign_type|industry_shop_name|industry_shop_id|create_time|
 | ------------- |:-------------:|:-------------:|:-------------:| -----:|
-| 777      | 2 | 榨汁机 |50018218 |2017-01-02|
+| 777      | 2 | 吊带�?背�?T恤 |50018218 |2017-01-02|
 
 最后解决方案，使用node把json转成sql,然后再导入到表。
 
@@ -22,4 +22,7 @@ ShopJson.forEach(function (iFeature) {
 console.log('Done!')
 ```
 
+|id| campaign_type|industry_shop_name|industry_shop_id|create_time|
+| ------------- |:-------------:|:-------------:|:-------------:| -----:|
+| 777      | 2 | 吊带/背心/T恤 |50018218 |2017-01-02|
 问题解决
